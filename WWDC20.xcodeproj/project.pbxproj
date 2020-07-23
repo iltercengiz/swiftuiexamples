@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3608E7D024CA0D9E00EF7F12 /* AvoidKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608E7CF24CA0D9E00EF7F12 /* AvoidKeyboardView.swift */; };
+		3608E7D124CA0D9E00EF7F12 /* AvoidKeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3608E7CF24CA0D9E00EF7F12 /* AvoidKeyboardView.swift */; };
 		3677A6BB24A69993003C0E1E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677A6BA24A69993003C0E1E /* Tests_iOS.swift */; };
 		3677A6C624A69993003C0E1E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677A6C524A69993003C0E1E /* Tests_macOS.swift */; };
 		3677A6C824A69993003C0E1E /* WWDC20App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3677A69F24A69992003C0E1E /* WWDC20App.swift */; };
@@ -51,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3608E7CF24CA0D9E00EF7F12 /* AvoidKeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvoidKeyboardView.swift; sourceTree = "<group>"; };
 		3677A69F24A69992003C0E1E /* WWDC20App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC20App.swift; sourceTree = "<group>"; };
 		3677A6A024A69992003C0E1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3677A6A124A69992003C0E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +135,7 @@
 				3677A6E824A69A83003C0E1E /* TextEditorView.swift */,
 				36D9740124A77E2E006AE42D /* ClippingExampleView.swift */,
 				36D9740424A785B6006AE42D /* OutlineExample.swift */,
+				3608E7CF24CA0D9E00EF7F12 /* AvoidKeyboardView.swift */,
 				3677A6A124A69992003C0E1E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -345,6 +349,7 @@
 				3677A6E324A69A45003C0E1E /* ProgressExampleView.swift in Sources */,
 				3677A6CA24A69993003C0E1E /* ContentView.swift in Sources */,
 				3677A6E624A69A65003C0E1E /* PageViewExampleView.swift in Sources */,
+				3608E7D024CA0D9E00EF7F12 /* AvoidKeyboardView.swift in Sources */,
 				36D9740524A785B6006AE42D /* OutlineExample.swift in Sources */,
 				3677A6C824A69993003C0E1E /* WWDC20App.swift in Sources */,
 				3677A6DD24A699EF003C0E1E /* ColorPickerView.swift in Sources */,
@@ -362,6 +367,7 @@
 				3677A6E424A69A45003C0E1E /* ProgressExampleView.swift in Sources */,
 				3677A6CB24A69993003C0E1E /* ContentView.swift in Sources */,
 				3677A6E724A69A65003C0E1E /* PageViewExampleView.swift in Sources */,
+				3608E7D124CA0D9E00EF7F12 /* AvoidKeyboardView.swift in Sources */,
 				36D9740624A785B6006AE42D /* OutlineExample.swift in Sources */,
 				3677A6C924A69993003C0E1E /* WWDC20App.swift in Sources */,
 				3677A6DE24A699EF003C0E1E /* ColorPickerView.swift in Sources */,

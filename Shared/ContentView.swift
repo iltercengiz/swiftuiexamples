@@ -28,25 +28,28 @@ struct Sidebar: View {
         case textEditor = "Text Editor"
         case clipping = "Clipping"
         case outline = "Outline"
+        case avoidKeyboard = "Avoid Keyboard"
 
-        var destination: AnyView {
+        @ViewBuilder var destination: some View {
             switch self {
             case .clipping:
-                return AnyView(ClippingExampleView())
+                ClippingExampleView()
             case .colorPicker:
-                return AnyView(ColorPickerView())
+                ColorPickerView()
             case .horizontalGrid:
-                return AnyView(HorizontalGridView())
+                HorizontalGridView()
             case .outline:
-                return AnyView(OutlineExample())
+                OutlineExample()
             case .progress:
-                return AnyView(ProgressExampleView())
+                ProgressExampleView()
             case .pageView:
-                return AnyView(PageViewExampleView())
+                PageViewExampleView()
             case .textEditor:
-                return AnyView(TextEditorView())
+                TextEditorView()
             case .verticalGrid:
-                return AnyView(VerticalGridView())
+                VerticalGridView()
+            case .avoidKeyboard:
+                AvoidKeyboardView()
             }
         }
     }
